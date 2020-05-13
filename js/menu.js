@@ -14,6 +14,5 @@ window.addEventListener("load", () => {
         } else {
             burger.classList.add("is-active");
         }
-
     }, false);
 }, true);
