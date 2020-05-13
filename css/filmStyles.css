@@ -1,0 +1,71 @@
+.option {
+    font-weight: lighter;
+}
+
+.option-highlighted {
+    font-weight: bold;
+}
+
+.films-container>.film-list {
+    height: 500px;
+    display: grid;
+    margin: 0px 17px;
+    overflow-y: auto;
+}
+
+.films-container {
+    /* width: 1090px; */
+    height: 650px;
+    background: black;
+    color: white;
+}
+
+.films-header {
+    height: 115px;
+}
+
+.film {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    color: black;
+    height: 150px;
+    margin: 8px 0px;
+    margin-right: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.film>img {
+    align-self: center;
+    padding-left: 22px;
+}
+
+.film>.info {
+    margin: 0px 15px;
+}
+
+.film>.info>.name {
+    margin-top: 18px;
+    margin-bottom: 3px;
+    font-size: 24px;
+}
+
+.film>.info>.description {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.film:hover {
+    background: #ccc;
+}
+
+/* scroll bar for films */
+.film-list::-webkit-scrollbar {
+    width: 8.5px;
+}
+
+.film-list::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 4px;
+}

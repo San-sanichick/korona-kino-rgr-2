@@ -1,0 +1,48 @@
+.news-container {
+    height: 770px;
+    background: white;
+    color: black;
+}
+
+.news-container>.news-header {
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.news-container>hr {
+    margin: 0px 15px;
+}
+
+.news-header>h4 {
+    margin: 0px 40px;
+}
+
+.news-container>.news-list {
+    height: 700px;
+    overflow-y: auto;
+    margin: 0px 14px;
+}
+
+.news-list>hr {
+    margin: 0px;
+}
+
+.news {
+    height: 165px;
+    margin: 40px 0px;
+    margin-right: 6px;
+}
+
+.news:hover {
+    background: #ccc;
+}
+
+/* scroll bar for news */
+.news-list::-webkit-scrollbar {
+    width: 8.5px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 4px;
+}
