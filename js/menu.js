@@ -8,5 +8,12 @@ window.addEventListener("load", () => {
     burger.addEventListener("click", () => {
         menu.classList.toggle("menu-open");
         page.classList.toggle("page-open");
+
+        if (burger.classList.contains("is-active")) {
+            burger.classList.remove("is-active");
+        } else {
+            burger.classList.add("is-active");
+        }
+
     }, false);
 }, true);
