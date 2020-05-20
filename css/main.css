@@ -26,23 +26,6 @@ body {
     /* background: url(../img/back.jpg) no-repeat center center fixed; */
 }
 
-.menu {
-    transform-origin: right;
-    right: -420px;
-    position: fixed;
-    /* position: fixed; */
-    color: white;
-    background: #000000;
-    min-width: 420px;
-    height: 100%;
-    z-index: 9001;
-    transition: right 0.4s;
-}
-
-.menu-open {
-    right: 0;
-}
-
 .page {
     position: relative;
     display: flex;
