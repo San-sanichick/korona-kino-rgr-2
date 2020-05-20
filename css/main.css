@@ -18,6 +18,14 @@ body {
     background-repeat: no-repeat;
 }
 
+.content {
+    padding: 0px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: url(../img/back.jpg) no-repeat center center fixed; */
+}
+
 .menu {
     transform-origin: right;
     right: -420px;
@@ -61,6 +69,7 @@ body {
 
 .header {
     position: fixed;
+    z-index: 9999;
     display: grid;
     grid-template-columns: max-content auto max-content;
     width: 100%;
@@ -100,15 +109,17 @@ body {
 } */
 .slider {
     background: #ccc;
-    height: 600px;
+    /* height: 600px; */
     text-align: center;
 }
 
-.content {
-    padding: 0px 400px;
-    display: flex;
-    flex-direction: column;
-    /* background: url(../img/back.jpg) no-repeat center center fixed; */
+.slider .carousel-item {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
 }
 
 .scroll-up {
