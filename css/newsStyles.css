@@ -28,9 +28,36 @@
 }
 
 .news {
+    display: flex;
+    flex-direction: row;
     height: 165px;
     margin: 40px 0px;
     margin-right: 6px;
+}
+
+.news>img {
+    align-self: center;
+    padding-left: 22px;
+}
+
+.news>.info {
+    margin: 0px 15px;
+}
+
+.news>.info>.name {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-size: 36px;
+}
+
+.news>.info>.description {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.news>.info .read-more {
+    font-style: italic;
+    color: #B10707;
 }
 
 .news:hover {
@@ -45,4 +72,9 @@
 .news-list::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 4px;
+}
+
+.news-list {
+    scrollbar-color: black white;
+    scrollbar-width: thin;
 }

@@ -25,9 +25,12 @@
 }
 
 .film {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     /* align-items: center; */
+    grid-template-areas:
+        "film-poster film-name"
+        "film-poster film-desc"
+        "film-poster film-desc";
     color: black;
     height: 150px;
     margin: 8px 0px;
@@ -37,25 +40,35 @@
 }
 
 .film>img {
+    grid-area: "film-poster";
     align-self: center;
     padding-left: 22px;
 }
 
-.film>.info {
+.film .name {
+    grid-area: "film-name";
+    font-size: 24px;
+}
+
+.film .description {
+    grid-area: "film-desc"
+        font-size: 14px;
+}
+
+/* .film>.info {
     margin: 0px 15px;
 }
 
 .film>.info>.name {
     margin-top: 18px;
     margin-bottom: 3px;
-    font-size: 24px;
+
 }
 
 .film>.info>.description {
     margin: 0px;
     font-size: 14px;
-}
-
+} */
 .film:hover {
     background: #ccc;
 }
@@ -68,4 +81,9 @@
 .film-list::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 4px;
+}
+
+.film-list {
+    scrollbar-color: white black;
+    scrollbar-width: thin;
 }

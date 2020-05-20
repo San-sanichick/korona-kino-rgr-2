@@ -7,9 +7,9 @@
         <link rel="stylesheet" href="css/filmStyles.css">
         <link rel="stylesheet" href="css/newsStyles.css">
         <link rel="stylesheet" href="css/burger.css">
+
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
         <script src="js/menu.js"></script>
-        <script src="js/scrollUp.js"></script>
     </head>
     <body>
         <div id="menu" class="menu">
@@ -18,9 +18,9 @@
 
         <div class="overlay"></div>
 
-        <div class="scroll-up"></div>
-
         <div id="page" class="page">
+            <a href="" id="top"></a>
+            <a href="#top" class="scroll-up"></a>
             <!-- <div class="background-image"></div> -->
             <div class="header">
                 <div class="logo">
@@ -38,15 +38,15 @@
                         </select>
                     </div>
                     <div class="vl"></div>
-                    <div class="button">
+                    <a href="#" class="button">
                         О нас
-                    </div>
+                    </a>
                     <div class="vl"></div>
                 </div>
                 <div class="group">
-                    <div class="button buy-button">
+                    <a href="#" class="button buy-button">
                         Купить билет
-                    </div>
+                    </a>
                     <div class="vl"></div>
                     <!-- <div class="menu-burger"> burger </div> -->
                     <button class="menu-burger menu-burger-x">
@@ -72,46 +72,10 @@
                         <div class="film-list">
                             <div class="film">
                                 <img src="img/posters/placeholder.png" alt="poster" width="70">
-                                <div class="info">
-                                    <h2 class="name">Name</h2>
-                                    <p class="description">Description</p>
-                                </div>
+                                <h2 class="name">Name</h2>
+                                <p class="description">Description</p>
                             </div>
-                            <div class="film">
-                                <img src="img/posters/placeholder.png" alt="poster" width="70">
-                                <div class="info">
-                                    <h2 class="name">Name</h2>
-                                    <p class="description">Description</p>
-                                </div>
-                            </div>
-                            <div class="film">
-                                <img src="img/posters/placeholder.png" alt="poster" width="70">
-                                <div class="info">
-                                    <h2 class="name">Name</h2>
-                                    <p class="description">Description</p>
-                                </div>
-                            </div>
-                            <div class="film">
-                                <img src="img/posters/placeholder.png" alt="poster" width="70">
-                                <div class="info">
-                                    <h2 class="name">Name</h2>
-                                    <p class="description">Description</p>
-                                </div>
-                            </div>
-                            <div class="film">
-                                <img src="img/posters/placeholder.png" alt="poster" width="70">
-                                <div class="info">
-                                    <h2 class="name">Name</h2>
-                                    <p class="description">Description</p>
-                                </div>
-                            </div>
-                            <div class="film">
-                                <img src="img/posters/placeholder.png" alt="poster" width="70">
-                                <div class="info">
-                                    <h2 class="name">Name</h2>
-                                    <p class="description">Description</p>
-                                </div>
-                            </div>
+                            <!-- <div class="film"> <img src="img/posters/placeholder.png" alt="poster" width="70"> <div class="info"> <h2 class="name">Name</h2> <p class="description">Description</p> </div> </div> -->
                         </div>
                     </div>
                     <div class="news-container">
@@ -121,37 +85,56 @@
                         <hr>
                         <div class="news-list">
                             <div class="news">
-                                news
+                                <img src="img/posters/placeholder.png" alt="poster" width="100px">
+                                <div class="info">
+                                    <h2 class="name">Header</h2>
+                                    <p class="description">BIOS – это термин, который используется для описания базовой системы ввода/вывода. Она представляет собой "промежуточный слой" между программной и аппаратной...
+                                        <span class="read-more">Читать дальше...</span>
+                                    </p>
+                                </div>
                             </div>
                             <hr>
-                            <div class="news">
-                                news
-                            </div>
-                            <hr>
-                            <div class="news">
-                                news
-                            </div>
-                            <hr>
-                            <div class="news">
-                                news
-                            </div>
-                            <hr>
-                            <div class="news">
-                                news
-                            </div>
-                            <hr>
-                            <div class="news">
-                                news
-                            </div>
-                            <hr>
-                            <div class="news">
-                                news
-                            </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="footer">
-                    footer
+                    <div class="logo-footer">
+                        <img src="img/logo.svg" alt="logo" height="112px">
+                        <span class="logo-name">КоронаКино</span>
+                    </div>
+                    <div class="footer-wrapper">
+                        <div class="site-map">
+                            <ul class="map">
+                                <li>
+                                    <a href="#">Кинотеатры</a>
+                                </li>
+                                <li>
+                                    <a href="#">Новости</a>
+                                </li>
+                                <li>
+                                    <a href="#">Сеансы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Партнёрам</a>
+                                </li>
+                                <li>
+                                    <a href="#">Вакансии</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="#">О нас</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr/>
+                        <div class="info">
+                            <span class="company-name">ООО "НАЗВАНИЕ"</span>
+                            <span class="phone-num">тел.: 8-800-42069</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
