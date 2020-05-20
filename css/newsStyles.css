@@ -55,9 +55,15 @@
     font-size: 14px;
 }
 
-.news>.info .read-more {
+.news>.info>.description::after {
+    content: 'Читать дальше...';
     font-style: italic;
     color: #B10707;
+    cursor: pointer;
+}
+
+.news>.info>.description:hover::after {
+    text-decoration: underline;
 }
 
 .news:hover {
