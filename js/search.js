@@ -14,6 +14,5 @@ window.addEventListener("load", () => {
                 el.style.display = "none";
             }
         });
-
     }, false);
 }, true);

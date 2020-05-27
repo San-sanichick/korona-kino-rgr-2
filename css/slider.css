@@ -1,0 +1,13 @@
+.slider {
+    background: #ccc;
+    text-align: center;
+}
+
+.slider .carousel-item {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}

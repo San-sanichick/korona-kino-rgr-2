@@ -18,8 +18,7 @@
 .films-container>.film-list {
     list-style-type: none;
     padding: 0;
-    height: 500px;
-    /* display: grid; */
+    height: 480px;
     margin: 0px 17px;
     overflow-y: auto;
 }
@@ -27,7 +26,7 @@
 .films-container {
     /* width: 1090px; */
     /* align-self: center; */
-    height: 650px;
+    height: 615px;
     background: black;
     color: white;
 }
