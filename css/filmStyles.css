@@ -19,7 +19,7 @@
     list-style-type: none;
     padding: 0;
     height: 500px;
-    display: grid;
+    /* display: grid; */
     margin: 0px 17px;
     overflow-y: auto;
 }
@@ -58,7 +58,7 @@
         "film-poster film-desc"; */
     color: black;
     height: 150px;
-    margin: 8px 0px;
+    margin-bottom: 16px;
     padding: 22px;
     margin-right: 6px;
     background-color: white;

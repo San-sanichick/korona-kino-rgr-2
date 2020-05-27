@@ -25,9 +25,6 @@
     margin: 0px 14px;
 }
 
-/* .news-list>hr {
-    margin: 0px;
-} */
 .news {
     display: flex;
     flex-direction: row;
