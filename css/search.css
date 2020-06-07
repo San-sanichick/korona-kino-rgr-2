@@ -8,7 +8,7 @@
     height: 36px;
     border-radius: 18px;
     border: none;
-    background-image: url("/img/icons/search.svg");
+    background-image: url("../img/icons/search.svg");
     background-repeat: no-repeat;
     background-position: 8px;
     padding: 0px 40px;
