@@ -59,7 +59,7 @@
     height: 150px;
     margin-bottom: 16px;
     padding: 22px;
-    margin-right: 6px;
+    margin-right: 16px;
     background-color: white;
     cursor: pointer;
 }
@@ -94,17 +94,12 @@
 }
 
 /* scroll bar for films */
-.film-list::-webkit-scrollbar {
-    width: 8.5px;
+.film-list .simplebar-scrollbar::before {
+    background-color: white;
+    opacity: 1;
+    width: 8px;
 }
 
-.film-list::-webkit-scrollbar-thumb {
-    background: white;
-    border-radius: 4px;
-}
-
-/* for firefox */
-.film-list {
-    scrollbar-color: white black;
-    scrollbar-width: thin;
+.film-list .simplebar-track .simplebar-scrollbar.simplebar-visible:before {
+    opacity: 1;
 }
