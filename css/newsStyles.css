@@ -36,6 +36,7 @@
 .news>img {
     align-self: center;
     padding-left: 22px;
+    flex-shrink: 0;
 }
 
 .news>.contents {
