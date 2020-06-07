@@ -40,35 +40,63 @@
     padding-left: 22px;
 }
 
-.news>.info {
+.news>.contents {
     height: auto;
     margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
 }
 
-.news>.info>.name {
+.news .info {
+    font-size: 18px;
+    color: #C4C4C4;
+    align-self: flex-end;
+}
+
+.news .info span {
+    margin-right: 7px;
+}
+
+.news .info .comments {
+    cursor: pointer;
+}
+
+.news .info>.comments::before {
+    content: url(../img/icons/comments.svg);
+    width: 100%;
+    margin-right: 4px;
+}
+
+.news .info>.date-of-creation::before {
+    content: url(../img/icons/date.svg);
+    margin-right: 4px;
+    width: 100%;
+}
+
+.news>.contents>.name {
     margin-top: 2px;
     margin-bottom: 3px;
     font-size: 36px;
 }
 
-.news>.info>.description {
+.news>.contents>.description {
     margin: 0px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
-.news>.info>.description::after {
+.news>.contents>.description::after {
     content: 'Читать дальше...';
     font-style: italic;
     color: #B10707;
     cursor: pointer;
 }
 
-.news>.info>.description:hover::after {
+.news>.contents>.description:hover::after {
     text-decoration: underline;
 }
 
 .news:hover {
-    background: #ccc;
+    background: #EEEEEE;
 }
 
 /* scroll bar for news */
