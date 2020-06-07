@@ -1,5 +1,5 @@
 .news-container {
-    height: 730px;
+    height: 720px;
     background: white;
     color: black;
 }
@@ -20,7 +20,7 @@
 .news-container>.news-list {
     list-style-type: none;
     padding: 0;
-    height: 670px;
+    height: 660px;
     overflow-y: auto;
     margin: 0px 14px;
 }
@@ -28,14 +28,12 @@
 .news {
     display: flex;
     flex-direction: row;
-    /* height: 165px; */
-    padding: 40px 0px;
+    padding: 30px 0px;
     margin-right: 12px;
     border-bottom: 1px solid black;
 }
 
 .news>img {
-    /* height: 100%; */
     align-self: center;
     padding-left: 22px;
 }

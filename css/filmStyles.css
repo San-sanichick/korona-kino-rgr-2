@@ -1,6 +1,8 @@
 .option {
     font-weight: lighter;
     margin: 0px 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .option-highlighted {

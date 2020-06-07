@@ -63,6 +63,7 @@ body {
 
 .vl {
     width: 1px;
+    align-self: center;
     background: #C2C2C2;
     height: 51px;
 }
@@ -71,7 +72,7 @@ body {
     position: fixed;
     z-index: 9000;
     display: grid;
-    grid-template-columns: max-content auto max-content;
+    grid-template-columns: max-content max-content auto max-content max-content;
     width: 100%;
     height: 60px;
     background: #1F1F1F;
@@ -102,7 +103,7 @@ body {
     background: #741B1B;
 }
 
-.group {
+.group, .group2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -117,7 +118,7 @@ body {
 }
 
 .logo>.logo-name {
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 .scroll-up {
@@ -173,7 +174,7 @@ body {
 
 .footer .map>li {
     font-size: 20px;
-    padding: 0 20px;
+    padding: 0px 15px;
 }
 
 .footer a {
@@ -209,7 +210,11 @@ body {
 
     .footer .map {
         display: grid;
-        grid-template-columns: max-content max-content auto;
+        grid-template-columns: max-content max-content max-content auto;
+    }
+
+    .footer .site-map .map {
+        margin: 0px;
     }
 
     .scroll-up {
@@ -238,14 +243,25 @@ body {
     }
 
     .header {
-        display: flex;
-        flex-direction: column;
-        height: auto;
+        display: grid;
+        grid-template-columns: max-content auto max-content;
+    }
+
+    .buy-button {
+        background: #C11111;
+        border: 1px solid #FF0000;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin: 0px 20px;
+    }
+
+    .group {
+        display: none;
     }
 
     .footer .map {
         display: grid;
-        grid-template-columns: max-content;
+        grid-template-columns: max-content max-content;
     }
 
     .scroll-up {
@@ -254,9 +270,22 @@ body {
 }
 
 @media all and (max-width: 480px) {
-    .footer .map {
-        display: grid;
-        grid-template-columns: max-content;
+    .footer .logo-footer {
+        display: none;
+    }
+
+    .header .vl {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .buy-button {
+        display: none;
     }
 
     .scroll-up {
