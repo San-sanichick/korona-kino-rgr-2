@@ -4,7 +4,7 @@
     color: black;
 }
 
-.news-container>.news-header {
+.news-container .news-header {
     padding: 15px 0;
     font-size: 24px;
 }
@@ -17,15 +17,16 @@
     margin: 0px 40px;
 }
 
-.news-container>.news-list {
+.news-container .news-list {
     list-style-type: none;
     padding: 0;
-    height: 660px;
+    height: 650px;
     overflow-y: auto;
     margin: 0px 14px;
 }
 
 .news {
+    background-color: white;
     display: flex;
     flex-direction: row;
     padding: 30px 0px;
@@ -52,12 +53,17 @@
     align-self: flex-end;
 }
 
-.news .info span {
+.news .info span, .news .info a {
     margin-right: 7px;
 }
 
 .news .info .comments {
-    cursor: pointer;
+    color: #C4C4C4;
+}
+
+.news .info .comments:hover {
+    color: #C4C4C4;
+    text-decoration: none;
 }
 
 .news .info>.comments::before {
@@ -83,14 +89,13 @@
     font-size: 18px;
 }
 
-.news>.contents>.description::after {
-    content: 'Читать дальше...';
+.news>.contents .read-more {
     font-style: italic;
     color: #B10707;
     cursor: pointer;
 }
 
-.news>.contents>.description:hover::after {
+.news>.contents .read-more:hover {
     text-decoration: underline;
 }
 
