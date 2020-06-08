@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+.option:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .option-highlighted {
     font-weight: normal;
 }
