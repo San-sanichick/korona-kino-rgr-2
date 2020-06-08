@@ -51,7 +51,6 @@ body, html {
 }
 
 .content {
-    flex: 1 0 auto;
     width: 1000px;
     height: 100%;
     margin: 0px auto;
@@ -113,6 +112,7 @@ body, html {
 .logo {
     padding: 0px 20px;
     display: flex;
+    width: 100%;
     align-items: center;
     color: white;
     font-family: 'Century Gothic Regular', sans-serif;
@@ -125,7 +125,7 @@ body, html {
 }
 
 .logo>.logo-name {
-    padding: 10px 0px 10px 10px;
+    padding-left: 10px;
 }
 
 .scroll-up {
@@ -144,7 +144,6 @@ body, html {
 }
 
 .footer {
-    flex: 0 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -204,13 +203,10 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    font-family: 'Century Gothic Regular', sans-serif;
-    font-size: 20px;
 }
 
 .logo-footer>.logo-name {
-    padding: 10px;
+    padding-top: 10px;
 }
 
 @media all and (max-width: 1024px) {
