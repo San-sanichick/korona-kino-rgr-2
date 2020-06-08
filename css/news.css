@@ -1,0 +1,12 @@
+.news-content {
+    background-color: white;
+}
+
+.news-content .news-header {
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+.news-content>hr {
+    margin: 0px 15px;
+}
