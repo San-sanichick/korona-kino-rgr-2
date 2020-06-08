@@ -10,16 +10,17 @@
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/search.css">
         <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/dropdown.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/>
 
         <script src="js/menu.js"></script>
         <script src="js/search.js"></script>
+        <script src="js/dropdown.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"/>
         <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
 
         <noscript>
@@ -72,13 +73,28 @@
                 <div class="vl"></div>
 
                 <div class="group">
-                    <div class="button cities">
-                        <select class="citiesDrop" name="">
-                            <option value="city1" selected="selected">Город</option>
-                            <option value="city2">город</option>
-                            <option value="city3">город</option>
-                            <option value="city4">город</option>
-                        </select>
+                    <div class="button cities dropdown">
+                        <!-- <input class="drop-value" type="button" name="" value="город"> -->
+                        <button class="drop-value" type="button" value="" name="button"></button>
+                        <ul class="value-list">
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>межгород</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                            <li>город</li>
+                        </ul>
+                        <!-- <select class="citiesDrop" name=""> <option value="city1" selected="selected">Город</option> <option value="city2">город</option> <option value="city3">город</option> <option value="city4">город</option> </select> -->
                     </div>
 
                     <div class="vl"></div>

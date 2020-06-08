@@ -1,0 +1,83 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.drop-value, .value-list {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.drop-value {
+    padding: 0px 2px 0px 0px;
+    /* width: 120px; */
+    /* height: 100%; */
+    color: white;
+    display: block;
+    overflow: hidden;
+    /* appearance: none; */
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+}
+
+.drop-value:focus {
+    outline: none;
+    background: none;
+}
+
+.drop-value:hover {
+    outline: none;
+    background: none;
+}
+
+.drop-value:active {
+    outline: none;
+    background: none;
+}
+
+.drop-value::after {
+    content: "";
+    margin-left: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.value-list {
+    width: 200px;
+    padding: 0px;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 43px;
+    background-color: white;
+    color: black;
+    max-height: 0px;
+    overflow: hidden;
+    list-style: none;
+    transition: max-height .3s ease-in-out;
+}
+
+.value-list-open {
+    max-height: 150px;
+    overflow: auto;
+}
+
+.value-list>li {
+    padding: 10px 20px;
+}
+
+.value-list>li:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
