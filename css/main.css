@@ -1,4 +1,5 @@
-body {
+body, html {
+    height: 100%;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -52,6 +53,7 @@ body {
 .content {
     flex: 1 0 auto;
     width: 1000px;
+    height: 100%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -84,7 +86,8 @@ body {
 }
 
 .button:hover {
-    color: white;
+    color: gray;
+    text-decoration: none;
 }
 
 .buy-button {
@@ -98,6 +101,7 @@ body {
 .buy-button:hover {
     text-decoration: none;
     background: #741B1B;
+    color: white;
 }
 
 .group, .group2 {
@@ -112,6 +116,12 @@ body {
     align-items: center;
     color: white;
     font-family: 'Century Gothic Regular', sans-serif;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .logo>.logo-name {
@@ -177,6 +187,11 @@ body {
 .footer a {
     text-decoration: none;
     color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: gray;
 }
 
 .footer .info {

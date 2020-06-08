@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    min-height: 100%;
+    background-color: black;
+    background-image: url(../img/back2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.error {
+    padding: 50px 95px;
+    height: 80vh;
+    background: white;
+}
+
+.error h1 {
+    font-size: 144px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.error h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.error p {
+    margin: 4px;
+}
