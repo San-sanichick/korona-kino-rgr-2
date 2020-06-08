@@ -13,24 +13,34 @@
     background-color: white;
 }
 
-.partner-info h3 {
+.partner-info h1 {
     font-size: 48px;
     color: #C11111;
     text-align: center;
+    padding: 20px 65px 0px 65px;
 }
 
-.partner-info h3::after {
+.partner-info h1::after {
     content: "";
     display: block;
     width: 100%;
     border-bottom: 1px solid black;
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .partnership, .rent {
-    padding: 20px 65px;
+    padding: 30px 65px;
 }
 
 .rent {
     background-color: #EEEEEE;
+}
+
+.contact-info p {
+    margin-bottom: 3px;
+}
+
+.contact-info p:first-child {
+    font-weight: bold;
+    margin-bottom: 3px;
 }

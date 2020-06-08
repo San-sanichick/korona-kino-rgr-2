@@ -9,33 +9,13 @@
     background-repeat: no-repeat;
 }
 
-.about, .team {
-    padding: 30px 65px;
-    /* background-color: white; */
-}
-
-.about {
-    background-color: white;
-}
-
-/* .about::after {
-    content: "";
-    display: block;
-    width: 100%;
-    border-bottom: 1px solid black;
-} */
-.content h3 {
+.content h1 {
     font-size: 48px;
     color: #C11111;
     text-align: center;
 }
 
-.about>p {
-    font-size: 20px;
-    color: black;
-}
-
-.content h3::after {
+.content h1::after {
     content: "";
     display: block;
     width: 100%;
@@ -43,21 +23,12 @@
     margin: 20px 0px;
 }
 
-.team {
-    background-color: #EEEEEE;
+.content .info, .vacancy-form {
+    background-color: white;
+    padding: 30px 65px;
 }
 
-.team .photo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.team .photo>h4 {
-    margin: 5px;
-}
-
-.team ul {
+.content .info ul {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -65,42 +36,45 @@
     margin: 0px;
 }
 
-.team li {
+.content .info li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* margin: 10px 0px; */
     padding: 10px 0px;
 }
 
-.team li:nth-child(2n+1)>p {
+.content .info li img {
+    width: 100px;
+}
+
+.content .info li:nth-child(2n+1)>p {
     margin-left: 35px;
 }
 
-.team li:nth-child(2n)>p {
-    margin-right: 35px;
+.vacancy-form {
+    background: #EEEEEE;
 }
 
-@media all and (max-width: 768px) {
-    .team li {
+@media screen and (max-width: 768px) {
+    .content .info li {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 10px 0px;
     }
 
-    .team li:nth-child(2n) {
+    .content .info li:nth-child(2n) {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         margin: 10px 0px;
     }
 
-    .team li:nth-child(2n+1)>p {
+    .content .info li:nth-child(2n+1)>p {
         margin-left: 0;
     }
 
-    .team li:nth-child(2n)>p {
+    .content .info li:nth-child(2n)>p {
         margin-right: 0;
     }
 }
