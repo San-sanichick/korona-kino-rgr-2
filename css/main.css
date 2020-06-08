@@ -43,11 +43,10 @@ body {
     flex-direction: column;
     padding-top: 60px;
     min-height: 100%;
-    background-color: #000;
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(98, 98, 98, 0) 27%, rgba(54, 54, 54, 0) 35%, rgba(15, 15, 15, 1) 45%, rgba(0, 0, 0, 1) 100%),
-        url(../img/back.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
+    background-color: black;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(82, 82, 82, 0) 18%, rgba(54, 54, 54, 0) 39%, rgba(15, 15, 15, 1) 61%, rgba(0, 0, 0, 1) 100%), url(../img/back2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .content {
@@ -57,8 +56,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* background: url(../img/back.jpg) no-repeat center center fixed; */
 }
 
 .vl {
