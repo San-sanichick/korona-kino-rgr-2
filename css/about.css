@@ -9,22 +9,38 @@
     background-repeat: no-repeat;
 }
 
-.about {
-    padding: 40px 65px;
+.about, .team {
+    padding: 20px 65px;
+    /* background-color: white; */
 }
 
 .about {
     background-color: white;
 }
 
+/* .about::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+} */
 .content h3 {
     font-size: 48px;
     color: #C11111;
+    text-align: center;
 }
 
 .about>p {
     font-size: 20px;
     color: black;
+}
+
+.content h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 20px 0px;
 }
 
 .team {
@@ -41,10 +57,6 @@
     margin: 5px;
 }
 
-.team>h3 {
-    text-align: center;
-}
-
 .team ul {
     display: flex;
     flex-direction: column;
@@ -58,7 +70,7 @@
     flex-direction: row;
     align-items: center;
     /* margin: 10px 0px; */
-    padding: 10px 65px;
+    padding: 10px 0px;
 }
 
 .team li:nth-child(2n+1)>p {
@@ -69,7 +81,7 @@
     margin-right: 35px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
     .team li {
         display: flex;
         flex-direction: column;
@@ -82,5 +94,13 @@
         flex-direction: column-reverse;
         align-items: center;
         margin: 10px 0px;
+    }
+
+    .team li:nth-child(2n+1)>p {
+        margin-left: 0;
+    }
+
+    .team li:nth-child(2n)>p {
+        margin-right: 0;
     }
 }
