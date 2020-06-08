@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    min-height: 100%;
+    background-color: black;
+    background-image: url(../img/back2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.partner-info {
+    background-color: white;
+}
+
+.partner-info h3 {
+    font-size: 48px;
+    color: #C11111;
+    text-align: center;
+}
+
+.partner-info h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 20px 0px;
+}
+
+.partnership, .rent {
+    padding: 20px 65px;
+}
+
+.rent {
+    background-color: #EEEEEE;
+}
