@@ -52,7 +52,6 @@
 }
 
 .contact-info p {
-    font-size: 20px;
     margin-bottom: 3px;
 }
 
@@ -74,6 +73,10 @@
     }
 
     .contacts h4 {
+        font-size: 18px;
+    }
+
+    .contacts p {
         font-size: 18px;
     }
 
