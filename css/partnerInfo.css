@@ -44,3 +44,20 @@
     font-weight: bold;
     margin-bottom: 3px;
 }
+
+@media screen and (max-width: 480px) {
+    .partnership, .rent {
+        padding: 20px 55px;
+    }
+
+    .partner-info h1 {
+        font-size: 25px;
+        color: #C11111;
+        text-align: center;
+        padding: 20px 65px 0px 65px;
+    }
+
+    .partner-info h3 {
+        font-size: 22px;
+    }
+}

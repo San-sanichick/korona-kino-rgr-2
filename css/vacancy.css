@@ -51,6 +51,10 @@
     margin-left: 35px;
 }
 
+.content p {
+    font-size: 20px;
+}
+
 .vacancy-form {
     background: #EEEEEE;
 }
@@ -76,5 +80,26 @@
 
     .content .info li:nth-child(2n)>p {
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content .info, .vacancy-form {
+        padding: 20px 55px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        color: #C11111;
+        text-align: center;
+        padding: 20px 65px 0px 65px;
+    }
+
+    .vacancy-form legend {
+        font-size: 22px;
+    }
+
+    .content p {
+        font-size: 18px;
     }
 }

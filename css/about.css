@@ -17,7 +17,7 @@
     background-color: white;
 }
 
-.content h3 {
+.content h1 {
     font-size: 48px;
     color: #C11111;
     text-align: center;
@@ -28,7 +28,7 @@
     color: black;
 }
 
-.content h3::after {
+.content h1::after {
     content: "";
     display: block;
     width: 100%;
@@ -98,5 +98,31 @@
 
     .team li:nth-child(2n)>p {
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about, .team {
+        padding: 20px 55px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        color: #C11111;
+        text-align: center;
+        padding: 20px 65px 0px 65px;
+    }
+
+    .about>p {
+        font-size: 18px;
+    }
+
+    .team .photo>h4 {
+        margin: 5px;
+        font-size: 22px;
+    }
+
+    .team li>p {
+        font-size: 18px;
     }
 }
