@@ -16,8 +16,7 @@
     color: white;
     display: block;
     overflow: hidden;
-    box-shadow: none;
-    border-radius: none;
+    /* box-shadow: none; */
     border: none;
     cursor: pointer;
     background: none;

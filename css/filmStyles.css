@@ -31,8 +31,6 @@
 }
 
 .films-container {
-    /* width: 1090px; */
-    /* align-self: center; */
     height: 615px;
     background: black;
     color: white;
@@ -58,10 +56,6 @@
 .film {
     display: flex;
     align-items: center;
-    /* grid-template-areas:
-        "film-poster film-name"
-        "film-poster film-desc"
-        "film-poster film-desc"; */
     color: black;
     height: 150px;
     margin-bottom: 16px;
@@ -72,17 +66,14 @@
 }
 
 .film>img {
-    /* grid-area: "film-poster"; */
     align-self: center;
 }
 
 .film .name {
-    grid-area: "film-name";
     font-size: 24px;
 }
 
 .film .description {
-    grid-area: "film-desc";
     font-size: 14px;
 }
 
