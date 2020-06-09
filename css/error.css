@@ -41,3 +41,21 @@ html, #override {
 .content p {
     margin: 4px;
 }
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 30px 75px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+        font-weight: bolder;
+        margin-bottom: 0px;
+    }
+
+    .content h2 {
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
