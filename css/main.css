@@ -84,14 +84,16 @@ body, html {
     align-items: center;
     color: white;
     text-decoration: none;
-    padding: 0px 20px;
+    margin: 0px 20px;
     height: 100%;
     box-sizing: border-box;
 }
 
 .button:hover {
-    color: gray;
+    color: white;
     text-decoration: none;
+    border-bottom: 1px solid white;
+    /* border-top: 1px solid black; */
 }
 
 .buy-button {
@@ -107,6 +109,7 @@ body, html {
     text-decoration: none;
     background: #741B1B;
     color: white;
+    border: 1px solid #FF0000;
 }
 
 .group, .group2 {
@@ -185,8 +188,8 @@ body, html {
 .footer .map {
     padding: 0px;
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(7, max-content);
 }
 
 .footer .map>li {
@@ -194,6 +197,9 @@ body, html {
     padding: 0px 15px;
 }
 
+/* .footer .map>li:hover {
+
+} */
 .footer a {
     text-decoration: none;
     color: white;
@@ -201,7 +207,9 @@ body, html {
 
 .footer a:hover {
     text-decoration: none;
-    color: gray;
+    color: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
 }
 
 .footer .info {
@@ -268,10 +276,6 @@ body, html {
 @media screen and (max-width: 768px) {
     .wrapper {
         padding-top: 60px;
-        /* background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(98, 98, 98, 0) 27%, rgba(54, 54, 54, 0) 35%, rgba(15, 15, 15, 1) 45%, rgba(0, 0, 0, 1) 100%),
-            url(../img/back.jpg);
-        background-size: cover;
-        background-repeat: no-repeat; */
     }
 
     .header {
