@@ -20,5 +20,4 @@ window.addEventListener("load", () => {
             valList.classList.toggle("value-list-open");
         }, false);
     });
-
 }, true);

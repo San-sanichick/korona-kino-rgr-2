@@ -2,7 +2,6 @@
     transform-origin: right;
     right: -320px;
     position: fixed;
-    /* position: fixed; */
     color: white;
     background: #000000;
     min-width: 320px;
@@ -33,7 +32,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* align-items: center; */
 }
 
 .menu-list {
@@ -42,11 +40,10 @@
 
 .menu li {
     list-style-type: none;
-    /* margin: 30px 20px; */
 }
 
 .menu li::before {
-    content: '';
+    content: "";
     width: 100%;
     display: block;
     margin: 15px 0px;

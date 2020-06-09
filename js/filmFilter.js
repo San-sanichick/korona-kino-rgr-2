@@ -9,5 +9,4 @@ window.addEventListener("load", () => {
             });
         }, false);
     });
-
 }, true);

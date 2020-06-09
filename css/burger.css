@@ -10,7 +10,7 @@
 .menu-burger>span,
 .menu-burger>span::before,
 .menu-burger>span::after {
-    content: '';
+    content: "";
     display: block;
     width: 60px;
     height: 2px;
