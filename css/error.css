@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 60px;
-    min-height: 100%;
+    /* min-height: 100%; */
     background-color: black;
     background-image: url(../img/back2.jpg);
     background-size: contain;
@@ -11,7 +11,8 @@
 
 .error {
     padding: 50px 95px;
-    height: 75vh;
+    margin: 0px 0px auto 0px;
+    height: 700px;
     background: white;
 }
 
