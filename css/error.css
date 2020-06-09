@@ -1,33 +1,43 @@
+html, #override {
+    height: 100%;
+}
+
+.page {
+    height: 100vh;
+}
+
 .wrapper {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     padding-top: 60px;
-    /* min-height: 100%; */
+    min-height: max-content;
+    height: 100%;
     background-color: black;
     background-image: url(../img/back2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.error {
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     padding: 50px 95px;
-    margin: 0px 0px auto 0px;
-    height: 70vmax;
+    height: 100%;
     background: white;
 }
 
-.error h1 {
+.content h1 {
     font-size: 144px;
     font-weight: bolder;
     margin-bottom: 0px;
 }
 
-.error h2 {
+.content h2 {
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 15px;
 }
 
-.error p {
+.content p {
     margin: 4px;
 }

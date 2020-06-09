@@ -1,7 +1,11 @@
-body, html {
+#override, html {
     height: 100%;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#top {
+    height: 0px;
 }
 
 .page {
@@ -160,7 +164,7 @@ body, html {
     align-items: center;
     padding: 0px 20px;
     height: 250px;
-    bottom: 0px;
+    /* bottom: 0px; */
     background: #1F1F1F;
     color: white;
 }
