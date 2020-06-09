@@ -81,7 +81,7 @@
     margin-right: 35px;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .team li {
         display: flex;
         flex-direction: column;

@@ -10,6 +10,7 @@
 }
 
 .contacts {
+    display: grid;
     padding: 30px 65px;
     background: white;
 }
