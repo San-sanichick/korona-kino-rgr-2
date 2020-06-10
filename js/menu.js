@@ -3,7 +3,6 @@ window.addEventListener("load", () => {
     let page = document.getElementById("page");
     let body = document.body;
     let overlay = document.getElementsByClassName("overlay")[0];
-    console.log(page);
     let burger = document.getElementsByClassName("menu-burger")[0];
 
     burger.addEventListener("click", () => {
