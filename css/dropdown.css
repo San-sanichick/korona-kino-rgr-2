@@ -5,6 +5,11 @@
     justify-content: flex-start;
 }
 
+button.drop-value {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
 .drop-value, .value-list {
     top: 0;
     left: 0;
